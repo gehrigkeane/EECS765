@@ -1,0 +1,50 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. "MSOKKJCOSXOEEKDTOSLGFWCMCHSUSGX"; 
+
+k = ks
+p = CAESARS WIFE MUST BE ABOVE SUSPICION
+
+key length = 2; firstWordLength = 6
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2. "OOPCULNWFRCFQAQJGPNARMEYUODYOUNRGWORQEPVARCEPBBSCEQYEARAJUYGWWYACYWBPRNEJBMDTEAEYCCFJNENSGWAQRTSJTGXNRQRMDGFEEPHSJRGFCFMACCB"
+
+k = jay
+p = FORTUNE WHICH HAS A GREAT DEAL OF POWER IN OTHER MATTERS BUT ESPECIALLY IN WAR CAN BRING ABOUT GREAT CHANGES IN A SITUATION THROUGH VERY SLIGHT FORCES
+
+keyLength=3; firstWordLength = 7
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3. "MTZHZEOQKASVBDOWMWMKMNYIIHVWPEXJA"
+
+Key = iwkd
+Plaintext = EXPERIENCE IS THE TEACHER OF ALL THINGS
+
+keyLength=4; firstWordLength = 10
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4. "HUETNMIXVTMQWZTQMMZUNZXNSSBLNSJVSJQDLKR"
+
+Key = zienf
+Plaintext = IMAGINATIONISMOREIMPORTANTTHANKNOWLEDGE
+
+keyLength=5; firstWordLength = 11
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5. "LDWMEKPOPSWNOAVBIDHIPCEWAETYRVOAUPSINOVDIEDHCDSELHCCPVHRPOHZUSERSFS"
+
+Key = hacker
+Plaintext = EDUCATION IS WHAT REMAINS AFTER ONE HAS FORGOTTEN WHAT ONE HAS LEARNED IN SCHOOL
+
+keyLength=6; firstWordLength = 9
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6. "VVVLZWWPBWHZDKBTXLDCGOTGTGRWAQWZSDHEMXLBELUMO"
+
+keyLength=7; firstWordLength = 13
