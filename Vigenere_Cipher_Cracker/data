@@ -1,0 +1,103 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#		Problem 1
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+key length = 2; firstWordLength = 6
+
+k = ks
+p = CAESARS WIFE MUST BE ABOVE SUSPICION
+
+Slow Preprocess	ng	0.149009943008
+DecrSlow ypti:	0.00571894645691
+Total:	Slow 0.9101409	
+
+Quick Preprocessing:	0.0620830059052
+Quick Decryption:	0.00319695472717
+Quick Total:	0.0655999183655
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#		Problem 2
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+keyLength=3; firstWordLength = 7
+
+k = jay
+p = FORTUNE WHICH HAS A GREAT DEAL OF POWER IN OTHER MATTERS BUT ESPECIALLY IN WAR CAN BRING ABOUT GREAT CHANGES IN A SITUATION THROUGH VERY SLIGHT FORCES
+
+Slow Preprocessing:	0.162410020828
+Slow Decryption:	0.142019987106
+Slow Total:	0.304531812668
+
+Quick Preprocessing:	0.0620830059052
+Quick Decryption:	0.00319695472717
+Quick Total:	0.0655999183655
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#		Problem 3
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+keyLength=4; firstWordLength = 10
+
+Key = iwkd
+Plaintext = EXPERIENCE IS THE TEACHER OF ALL THINGS
+
+Slow Preprocessing:	0.168552875519
+Slow Decryption:	4.70193004608
+Slow Total:	4.87061715126
+
+Quick Preprocessing:	0.0750939846039
+Quick Decryption:	0.0150651931763
+Quick Total:	0.0904760360718
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#		Problem 4
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+keyLength=5; firstWordLength = 11
+
+Key = zienf
+Plaintext = IMAGINATIONISMOREIMPORTANTTHANKNOWLEDGE
+
+Slow Preprocessing:	0.154419183731
+Slow Decryption:	132.933595181
+Slow Total:	133.088126898
+
+Quick Preprocessing:	0.0698618888855
+Quick Decryption:	0.0174062252045
+Quick Total:	0.0875811576843
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#		Problem 5
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+keyLength=6; firstWordLength = 9
+
+Key = hacker
+Plaintext = EDUCATION IS WHAT REMAINS AFTER ONE HAS FORGOTTEN WHAT ONE HAS LEARNED IN SCHOOL
+
+Slow Preprocessing:	0.165453910828
+Slow Decryption:	3201.66024399
+Slow Total:	3201.82580304	53m 21s
+
+Quick Preprocessing:	0.0800981521606
+Quick Decryption:	0.0173509120941
+Quick Total:	0.0977978706363
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#		Problem 6
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+keyLength=7; firstWordLength = 13
+
+Key = nichols
+Plaintext = INTELLECTUALS SOLVE PROBLEMS GENIUSES PREVENT THEM
+
+Slow Preprocessing:	~
+Slow Decryption:	~5.6hrs
+Slow Total:	~5.6hrs
+
+Quick Preprocessing:	0.0800981521606
+Quick Decryption:	0.0173509120941
+Quick Total:	0.097797870636
+
+

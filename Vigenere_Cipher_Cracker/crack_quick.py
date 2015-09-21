@@ -3,6 +3,7 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #	Gehrig Keane
 #	2727430
+#	Mini-project 1
 #	vigenere.py - polished python script
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -19,14 +20,14 @@ def rebuild(word):
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #	Gather Integer + String Input
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cipher_text = raw_input("\nEnter cipher text: ")
+cipher_text = cipher_text.strip(' \r\n').lower()
+
 key_len = raw_input("\nEnter key length: ")
 key_len = int(key_len)
 
 word_len = raw_input("\nEnter word length: ")
 word_len = int(word_len)
-
-cipher_text = raw_input("\nEnter cipher text: ")
-cipher_text = cipher_text.strip('\r\n').lower()
 
 print ("\n\nKey length: " + str(key_len))
 print ("Word length: " + str(word_len))
@@ -46,7 +47,7 @@ start = time.time()
 #		- Strips whitespace 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 lines = [line.rstrip('\r\n').lower() for line in open('dict.txt') if len(line.rstrip('\r\n').lower())==word_len]
-
+print ("\nDictionary Size:\t" + str(len(lines)))
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #	Convert strings to integer tuples
 #		- Zero's ints with ord(c) - 97
@@ -114,6 +115,6 @@ for word in uniLines:
 
 end = time.time()
 decrypt_time = end - start
-print ("\nPreprocessing time: " + str(preproc_time))
-print ("Decryption time: " + str(decrypt_time))
-print ("Total time: " + str(time.time() - tstart))
+print ("\nQuick Preprocessing:\t" + str(preproc_time))
+print ("Quick Decryption:\t" + str(decrypt_time))
+print ("Quick Total:\t" + str(time.time() - tstart))
