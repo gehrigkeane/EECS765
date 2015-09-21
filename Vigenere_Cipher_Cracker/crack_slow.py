@@ -9,7 +9,7 @@
 #$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 import marisa_trie
-from itertools import product, combinations_with_replacement
+from itertools import product
 import time
 from string import ascii_lowercase
 tstart = time.time()
@@ -78,8 +78,7 @@ preproc_time = end - start
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 start = time.time()
 
-#for combo in product(ascii_lowercase, repeat=key_len):
-for combo in combinations_with_replacement("abcdefghijklmnopqrstuvwxyz", key_len):
+for combo in product(ascii_lowercase, repeat=key_len):
 	#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#		Calculate key int tuple
 	#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
